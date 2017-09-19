@@ -8,9 +8,10 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	line-height: 20px;
-	color: #999999;
+	color: #595959;
 	font-size: 300;
 	font-size: 16px;
+	letter-spacing:2px;
 }
 ol, ul {
 	list-style: none;
@@ -277,7 +278,7 @@ doctor team
 	border-radius: 0px;
 }
 .caption h3{
-    padding-bottom: 5px;
+    padding-bottom: 9px;
 }
 .caption p{
     padding-bottom: 10px;
