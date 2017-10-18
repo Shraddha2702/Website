@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     
   </head>
   <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -64,12 +65,12 @@
 	<!--/ banner-->
 	<!--service-->
 	<section id="service" class="section-padding">
-		<div class="container">
+		<div class="container" style="letter-spacing:0px;font-family: 'Raleway', sans-serif;">
 			<div class="row">
 				<div class="col-md-4 col-sm-4">
 					<h2 class="ser-title">Our Service</h2>
 					<hr class="botm-line">
-					<p><ul style="list-style-type:disc; padding-right:20px">
+					<p><ul style="list-style-type:disc; padding-right:20px;letter-spacing:1px">
 					<li>Consulting us is unique and different from a regular consultation with family doctors or allopathic specialists. Homeopathy is known for its safe and gentle ways of treatment. </li><br>
 					<li>People across the world prefer homeopathy over conventional medicine, as it has no side-effects, and is non-toxic and non-addictive. Homeopathic medicine acts by stimulating your body’s natural healing power through your immune system and nerves. It is known to cure various types of chronic and acute ailments. </li><br>
 					<li>It is suitable for all age groups, from infants to the elderly. Furthermore, homeopathic remedies are not known to interfere with conventional medicine or any other tablets.</li>
@@ -136,7 +137,7 @@
 				</div>
 				
 			</div>
-			<p  style="padding:20px">In India, over 100 million people depend on homeopathy for health issues. There are around 200,000 registered homeopathic doctors, and approximately 12,000 new homeopathic doctors are registered every year. Homeopathy is practised in most European countries. It is included in the national health systems of countries like Brazil, Chile, Mexico, Switzerland and United Kingdom. Homeopathy is also practiced with good support from the government in countries like UAE, most Asian countries, and in many Middle Eastern countries.<br><br>
+			<p  style="padding:20px; letter-spacing:1px; font-family: 'Raleway', sans-serif;">In India, over 100 million people depend on homeopathy for health issues. There are around 200,000 registered homeopathic doctors, and approximately 12,000 new homeopathic doctors are registered every year. Homeopathy is practised in most European countries. It is included in the national health systems of countries like Brazil, Chile, Mexico, Switzerland and United Kingdom. Homeopathy is also practiced with good support from the government in countries like UAE, most Asian countries, and in many Middle Eastern countries.<br><br>
 
 			Homeopathy is known to cure various types of chronic and acute complaints. People have experienced the benefits over a wide range of illnesses, such as arthritis, autism, allergies like coughs, colds, flu, atopic dermatitis, asthma, backache, bald patches, constipation, cramps, diarrhoea, digestive problems, epilepsy, ear pain, fevers, gastric problems, headaches, hair fall, infections, irritable bowel syndrome, intestinal complaints, injuries, jaundice, kidney problems, liver problems, lung complaints, menstrual complaints, nerve problems, paralysis, psychological problems like depression and sadness, rheumatoid arthritis, skin problems, toothaches, all types of chronic and acute pain, burns, and much more. Homeopathy can be used as supportive treatment along with conventional medicine in serious infections.</p>
 			
@@ -187,13 +188,13 @@
 				<div class="schedule-tab">
     			<div class="col-md-4 col-sm-4 bor-left">
     				<div class="mt-boxy-color"></div>
-	    			<div class="medi-info">
+	    			<div class="medi-info" style="font-family: 'Raleway', sans-serif;">
 		    			<h3>Quick Fact</h3>
 						<p>A study on the homeopathic medicine Lycopodium 30C showed its benefits on high blood pressure, cardiovascular ailments, improving memory, reducing inflammation and providing over 60% protection against alcohol-induced gastric ulcer.</p>		    	
 					</div>
     			</div>
 				<div class="col-md-4 col-sm-4">
-					<div class="medi-info">
+					<div class="medi-info" style="font-family: 'Raleway', sans-serif;">
 		    			<h3>Quick Fact</h3>
 						<p>The homeopathic remedy Rhustox 200 has been found to work effectively for relief from stiff joints in rheumatoid arthritis. 58% patients suffering from major depression, social phobia or panic disorder responded favourably to prescribed homeopathic remedies.</p>	
 					</div>
@@ -243,14 +244,14 @@
 			       <div style="visibility: visible;" class="col-sm-9 more-features-box">
 			          <div class="more-features-box-text">
 			            <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
-			            <div class="more-features-box-text-description">
+			            <div class="more-features-box-text-description" style="font-family: 'Raleway', sans-serif;">
 				            <h3>Remedy from all the Diseases</h3>
 				            <p>We want to cure the diseases of all our patients and free them from all of their sufferings. That is our topmost priority. We want them to just open up to us about their problems and we will try to find the best solution for it.</p>
 				        </div>
 			          </div>
 			          <div class="more-features-box-text">
 			            <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
-			            <div class="more-features-box-text-description">
+			            <div class="more-features-box-text-description" style="font-family: 'Raleway', sans-serif;">
 				            <h3>Overall improvement of Lifestyle</h3>
 				            <p>With an improved physical and mental conditions, we provide them psychological healing which makes their everyday life better and more enjoyable. Just come visit us once we are here to help you with all your health related issues.</p>
 				        </div>
@@ -276,9 +277,9 @@
 			          <h3>Deepali Kulkarni</h3>
 			          <p>Doctor</p>
 			          <ul class="list-inline">
-			            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-			            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-			            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+			            <li><a href="https://www.facebook.com/deepali.kulkarni.374"><i class="fa fa-facebook"></i></a></li>
+			            <li><a href="https://twitter.com/drdeepalikulka1"><i class="fa fa-twitter"></i></a></li>
+			            <li><a href="www.google.com"><i class="fa fa-google-plus"></i></a></li>
 			          </ul>
 			        </div>
 			      </div>
@@ -301,7 +302,7 @@
 				<div class="col-md-4 col-sm-4">
 					<div class="testi-details">
 						<!-- Paragraph -->
-						<p style="padding:12px">I have been a patient of chronic asthma for the past 20 yrs.I reached a stage when I could not consume food. There was constant pain in the chest. I lost weight drastically with many other complications. After 10 yrs of suffering, I finally came here. Today I am highly obliged to this clinic. With homeopathic medicines not only did my asthma get better but the there was remarkable relief in my digestive problems. My food intake improved and chest pain reduced considerably.</p>
+						<p style="padding:12px;font-family: 'Raleway', sans-serif; line-spacing:0px">I have been a patient of chronic asthma for the past 20 yrs.I reached a stage when I could not consume food. There was constant pain in the chest. I lost weight drastically with many other complications. After 10 yrs of suffering, I finally came here. Today I am highly obliged to this clinic. With homeopathic medicines not only did my asthma get better but the there was remarkable relief in my digestive problems. My food intake improved and chest pain reduced considerably.</p>
 					</div>
 					<div class="testi-info">
 						<!-- User Image -->
@@ -313,7 +314,7 @@
 			    <div class="col-md-4 col-sm-4">
 					<div class="testi-details">
 						<!-- Paragraph -->
-						<p style="padding:12px">About a year ago, when our son was diagnosed with vitiligo, we were in a state of complete shock and anxiety. That's when we contacted Dayanidhi clinic, where we consulted Dr Deepali. Her detailed approach put us at ease and we were satisfied that we were in the right hands. She not only treated our son but also dealt with our anxiety extremely well. My son is now doing extremely well and we have to thank Dr Deepali for saving him from this disease and, in a way, giving us all a new life.</p>
+						<p style="padding:12px;font-family: 'Raleway', sans-serif; line-spacing:0px">About a year ago, when our son was diagnosed with vitiligo, we were in a state of complete shock and anxiety. That's when we contacted Dayanidhi clinic, where we consulted Dr Deepali. Her detailed approach put us at ease and we were satisfied that we were in the right hands. She not only treated our son but also dealt with our anxiety extremely well. My son is now doing extremely well and we have to thank Dr Deepali for saving him from this disease and, in a way, giving us all a new life.</p>
 					</div>
 					<div class="testi-info">
 						<!-- User Image -->
@@ -325,7 +326,7 @@
 			    <div class="col-md-4 col-sm-4">
 					<div class="testi-details">
 						<!-- Paragraph -->
-						<p style="padding:12px">I came to Dr Deepali's clinic for my daughter's acne problem. My daughter faced this problem as soon as she entered the adolescent stage. Her cheeks were full of acne. With homeopathic treatment here, her acne subsided within 8 months. I am very thankful to all the doctors at Dayanidhi clinic who had initially explained that my daughter's problem was all part of growing up. Now with Dr Deepali’s treatment, I can keep my daughter's face beautiful and acne free forever.</p>
+						<p style="padding:12px;font-family: 'Raleway', sans-serif; line-spacing:0px">I came to Dr Deepali's clinic for my daughter's acne problem. My daughter faced this problem as soon as she entered the adolescent stage. Her cheeks were full of acne. With homeopathic treatment here, her acne subsided within 8 months. I am very thankful to all the doctors at Dayanidhi clinic who had initially explained that my daughter's problem was all part of growing up. Now with Dr Deepali’s treatment, I can keep my daughter's face beautiful and acne free forever.</p>
 					</div>
 					<div class="testi-info">
 						<!-- User Image -->
