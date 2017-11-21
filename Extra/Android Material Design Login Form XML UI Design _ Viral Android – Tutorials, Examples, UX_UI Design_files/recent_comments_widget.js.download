@@ -1,0 +1,73 @@
+
+
+document.write(' \
+<style type="text/css" media="screen">\
+	 .dsq-widget ul.dsq-widget-list {\
+	 padding: 0;\
+	 margin: 0;\
+	 text-align: left;\
+	 }\
+	 img.dsq-widget-avatar {\
+	 width: 32px;\
+	 height: 32px;\
+	 border: 0px;\
+	 margin: 0px;\
+	 padding: 0px 3px 3px 0px;\
+	 float: left;\
+	 }\
+	 a.dsq-widget-user {\
+	 font-weight: bold;\
+	 }\
+	 a.dsq-widget-thread {\
+	 font-weight: bold;\
+	 }\
+	 p.dsq-widget-meta {\
+	 clear: both;\
+	 font-size: 80%;\
+	 padding: 0;\
+	 margin: 0;\
+	 }\
+	 li.dsq-widget-item {\
+	 margin: 15px 0;\
+	 list-style-type: none;\
+	 clear: both;\
+	 }\
+	 span.dsq-widget-clout {\
+	 padding: 0 2px;\
+	 background-color: #ff7300;\
+	 color: #fff;\
+	 }\
+	 table.dsq-widget-horiz td {\
+	 padding-right: 15px;\
+	 }\
+	 .dsq-widget-comment p {\
+	 display: inline;\
+	 }\
+	 </style>\
+	 <ul class="dsq-widget-list">\
+	 <li class="dsq-widget-item">\
+	 <a href="https://disqus.com/by/gurleenkailey/"><img class="dsq-widget-avatar" src="https://c.disquscdn.com/uploads/users/25982/1549/avatar92.jpg?1500756908"></a>\
+	 <a class="dsq-widget-user" href="https://disqus.com/by/gurleenkailey/">Gurleen Kailey</a>\
+	 <span class="dsq-widget-comment"><p>IM GETTING THIS ERROR android.view.InflateException: Binary XML file line #49: Binary XML file...</p></span>\
+	 <p class="dsq-widget-meta"><a href="http://www.viralandroid.com/2016/02/android-floating-action-menu-example.html">Android Floating Action Menu Example | Viral Android – Tutorials, Examples, UX/UI Design</a>&nbsp;&middot;&nbsp;<a href="http://www.viralandroid.com/2016/02/android-floating-action-menu-example.html#comment-3430535238">6 days ago</a></p>\
+	 </li>\
+	 <li class="dsq-widget-item">\
+	 <a href="https://disqus.com/by/disqus_1tv5PPnELK/"><img class="dsq-widget-avatar" src="https://c.disquscdn.com/uploads/users/24452/7198/avatar92.jpg?1500968647"></a>\
+	 <a class="dsq-widget-user" href="https://disqus.com/by/disqus_1tv5PPnELK/">Simran Sharma</a>\
+	 <span class="dsq-widget-comment"><p>source code for download please</p></span>\
+	 <p class="dsq-widget-meta"><a href="http://www.viralandroid.com/2016/06/chat-messaging-app-xml-ui-design-for-android.html">Chat/Messaging App XML UI Design for Android - Viral Android – Tutorials, Examples, UX/UI Design</a>&nbsp;&middot;&nbsp;<a href="http://www.viralandroid.com/2016/06/chat-messaging-app-xml-ui-design-for-android.html#comment-3419089173">1 week ago</a></p>\
+	 </li>\
+	 <li class="dsq-widget-item">\
+	 <a href="https://disqus.com/by/disqus_1tv5PPnELK/"><img class="dsq-widget-avatar" src="https://c.disquscdn.com/uploads/users/24452/7198/avatar92.jpg?1500968647"></a>\
+	 <a class="dsq-widget-user" href="https://disqus.com/by/disqus_1tv5PPnELK/">Simran Sharma</a>\
+	 <span class="dsq-widget-comment"><p>how i add animation in chat activity in android studio project..please help and reply soon as...</p></span>\
+	 <p class="dsq-widget-meta"><a href="http://www.viralandroid.com/2016/06/chat-messaging-app-xml-ui-design-for-android.html">Chat/Messaging App XML UI Design for Android - Viral Android – Tutorials, Examples, UX/UI Design</a>&nbsp;&middot;&nbsp;<a href="http://www.viralandroid.com/2016/06/chat-messaging-app-xml-ui-design-for-android.html#comment-3419088298">1 week ago</a></p>\
+	 </li>\
+	 <li class="dsq-widget-item">\
+	 <a href="https://disqus.com/by/disqus_NShR5MhMgS/"><img class="dsq-widget-avatar" src="//a.disquscdn.com/1501112550/images/noavatar92.png"></a>\
+	 <a class="dsq-widget-user" href="https://disqus.com/by/disqus_NShR5MhMgS/">Shanmukh</a>\
+	 <span class="dsq-widget-comment"><p>When click the grid view open a new activity please tell me the code</p></span>\
+	 <p class="dsq-widget-meta"><a href="http://www.viralandroid.com/2016/05/android-material-design-gridview.html?m=1">Android Material Design GridView | Viral Android – Tutorials, Examples, UX/UI Design</a>&nbsp;&middot;&nbsp;<a href="http://www.viralandroid.com/2016/05/android-material-design-gridview.html?m=1#comment-3419067013">1 week ago</a></p>\
+	 </li>\
+	 </ul>\
+');

@@ -1,0 +1,107 @@
+var spriteAnimating = false, mouseOver = false, trace = false;
+window.onload = function(){
+	var dur = 0;
+	TweenMax.to('#ad-container', 0, {autoAlpha:1, delay:0.1});
+
+	//
+	dur += 0.1;
+	TweenMax.to('#bg1', 0, {autoAlpha:1, delay:dur, overwrite:0, ease:Linear.easeNone});
+
+	//
+	animateSpriteSheet(55, 90, 6, 1, 0.12, '#sprite', true, false, 7);
+
+
+	addRollover();
+}
+
+function addRollover() {
+	document.getElementById('cover').addEventListener('mouseover', onRollover);
+	document.getElementById('cover').addEventListener('mouseout', onRollout);
+}
+
+function onRollover() {
+
+	TweenMax.to('#cta', 1.0, {backgroundColor:"#006A96", delay:0, overwrite:1, ease:Power2.easeOut});
+	if (spriteAnimating === false) {
+		animateSpriteSheet(55, 90, 6, 1, 0.12, '#sprite', true, false, 7);
+	}
+}
+
+function onRollout() {
+	TweenMax.to('#cta', 1.0, {backgroundColor:"#00c6d7", delay:0, overwrite:1, ease:Power2.easeOut});
+}
+
+function animateSpriteSheet(w, h, colTotal, rowTotal, frameDur, elem, loop, yoyo, repeat) {
+	var len = colTotal * rowTotal, i, tCol = 0, tRow = 0, delay = 0;
+	if(trace) {console.log('Forward');}
+
+	repeat -= 1;
+	if(repeat <= 0) {
+		spriteAnimating = false;
+		return;
+	}
+	if(trace) {console.log('repeat: ',repeat);}
+	spriteAnimating = true;
+	for(i=0;i<len;i+=1) {
+		if(trace) {console.log('i: '+i+', col: '+tCol+', colTotal: '+colTotal+', row: '+tRow+', rowTotal: '+rowTotal+', len: '+len+', left: '+ (tCol*w * -1)+', repeat: '+repeat+', delay: '+delay);}
+		if(i==0) {
+			ov = 1;
+		} else {
+			ov = 0;
+		}
+		TweenMax.to(elem, 0, {css:{left:(tCol*w) * -1, top:(tRow*h) * -1}, delay:delay, overwrite:ov, ease:Linear.easeNone});
+		tCol += 1;
+		delay += frameDur;
+		if(tCol === colTotal) {
+			if(trace) {console.log('delay: ', delay)};
+			if(loop === true && yoyo === false && repeat != 0) {
+				TweenMax.delayedCall(delay, function(){
+					animateSpriteSheet(w, h, colTotal, rowTotal, frameDur, elem, loop, yoyo, repeat);
+				});
+			} else if(yoyo === true && repeat !=0) {
+				TweenMax.delayedCall(delay, function(){
+					if(trace) {console.log('delay call '+delay);}
+					animateSpriteSheetReverse(w, h, colTotal, rowTotal, frameDur, elem, loop, yoyo, repeat);
+				});
+			} else if(repeat === 0) {
+				TweenMax.delayedCall(delay, function(){
+					spriteAnimating = false;
+				});
+			}
+		}
+	}
+}
+
+function animateSpriteSheetReverse(w, h, colTotal, rowTotal, frameDur, elem, loop, yoyo, repeat) {
+	var len = colTotal * rowTotal, i, tCol = colTotal-1, tRow = 0, delay = 0;
+	spriteAnimating = true;
+	if(trace) {console.log('Reverse');}
+	for(i=len-1;i>-1;i-=1) {
+		if(i === 5 || i === 0 && repeat > 1) {
+			tCol -= 1;
+			continue;
+		}
+		if(trace) {console.log('i: '+i+', col: '+tCol+', colTotal: '+colTotal+', row: '+tRow+', rowTotal: '+rowTotal+', len: '+len+', left: '+ (tCol*w * -1)+', repeat: '+repeat+', delay: '+delay);}
+		TweenMax.to(elem, 0, {css:{left:(tCol*w) * -1, top:(tRow*h) * -1}, delay:delay, overwrite:0, ease:Linear.easeNone});
+		tCol -= 1;
+		delay += frameDur;
+		if(tCol === 1) {
+			if(loop === true && repeat != 0 || yoyo === true && repeat != 0) {
+				TweenMax.delayedCall(delay, function(){
+				if(trace) {console.log('delay call '+delay);}
+					animateSpriteSheet(w, h, colTotal, rowTotal, frameDur, elem, loop, yoyo, repeat);
+				});
+			} else if(repeat === 0) {
+				TweenMax.delayedCall(delay, function(){
+					spriteAnimating = false;
+				});
+			}
+		}
+	}
+
+}
+
+
+
+
+

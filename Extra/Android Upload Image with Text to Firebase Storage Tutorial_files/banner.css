@@ -1,0 +1,104 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    position: relative;
+}
+
+#ad-ct {
+    width: 728px;
+    height: 90px;
+    display: block;
+    position: relative;
+}
+
+#ad-container {
+	width: 728px;
+	height: 90px;
+    background-color: #fff;
+	position: relative;
+	overflow: hidden;
+	cursor: pointer;
+    opacity: 0;
+}
+
+#ad-container div {
+	display: block;
+	background-repeat: no-repeat;
+	padding:0;
+	margin:0;
+	position:absolute;
+    opacity: 0;
+}
+
+#ad-container div img{
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+}
+#ad-container #cover {
+    width: 728px;
+    height: 90px;
+    box-sizing: border-box;
+    border: 1px solid #666666;
+    opacity: 1;
+}
+
+#ad-container #bg1 {
+    width: 581px;
+    height: 90px;
+    bottom: 0;
+    left: 0;
+    background-color: #bbd6e7;
+}
+
+#ad-container #sprite-container {
+    width: 55px;
+    height: 90px;
+    left: 420px;
+    top: 0px;
+    overflow: hidden;
+    opacity: 1;
+}
+#ad-container #sprite {
+    width: auto;
+    height: auto;
+    position: absolute;
+    display: block;
+}
+
+#ad-container #textbox {
+    width: 138px;
+    height: 89px;
+    top: 0px;
+    left: 16px;
+    background: #fff;
+    opacity: 1;
+}
+
+#ad-container #text1 {
+    width: 110px;
+    height: 35px;
+    top: 29px;
+    left: 31px;
+    background: url("text1.png") no-repeat 0px 0px;
+    opacity: 1;
+}
+#ad-container #logo {
+    width: 115px;
+    height: 21px;
+    top: 16px;
+    left: 597px;
+    opacity: 1;
+}
+
+#ad-container #cta {
+    width: 115px;
+    height: 25px;
+    top: 49px;
+    left: 597px;
+    background: #00c6d7 url("cta.png") no-repeat center center;
+    opacity: 1;
+}
